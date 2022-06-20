@@ -1,0 +1,29 @@
+.My-navbar {
+  box-shadow: 0 1px 5px #334155;
+}
+.title-nav {
+  font-family: "Poppins", sans-serif;
+}
+.nav-text {
+  font-family: "Oxygen", sans-serif;
+}
+.title-product {
+  letter-spacing: 0.075em;
+  font-family: "Poppins";
+  box-shadow: 0 2px 0 #334155;
+}
+@media (min-width: 1000px) {
+  .cart-sm {
+    display: none !important;
+  }
+}
+@media (max-width: 1000px) {
+  .lg-cart {
+    display: none !important;
+  }
+}
+@media (min-width: 1000px) {
+  .w-img {
+    width: 1500px;
+  }
+}
