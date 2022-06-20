@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Heebo:wght@300&family=Inter:wght@200;400;600;900&family=Oxygen&family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 My-navbar sticky-top">
+      <div class="container">
+        <a class="navbar-brand text-secondary fw-bolder title-nav px-3" href="#">MyNavbar</a>
+        <div class="ms-auto me-3 text-secondary cart-sm">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 px-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-secondary fw-bold nav-text" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-secondary fw-bold nav-text" aria-current="page" href="#"> Masuk/Daftar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle text-secondary fw-bold nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Kategori </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-secondary fw-bold lg-cart" aria-current="page" href="#"> <i class="fas fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+          <form class="d-flex rounded-sm">
+            <input class="form-control me-2 mx-3 rounded-pill" type="search" placeholder="Cari barang.." aria-label="Search" />
+
+            <!-- <button class="btn btn-outline-secondary" type="submit">
+              <i class="fas fa-search"></i>
+            </button> -->
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- hero start -->
+    <div class="container mt-5">
+      <div class="card mb-3" style="max-width: 100%">
+        <div class="row g-0">
+          <div class="col-md-4"><img src="asset/img/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg" class="img-fluid rounded-start img-fluid" style="max-width: 100%; height: 500px" alt="..." /></div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title">Name Product</h4>
+              <h5 class="card-text">Rp.harga barang</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero end -->
+    <!-- Footer -->
+    <footer class="bg-light pt-5 pb-4 mt-5 text-secondary">
+      <div class="text-center container text-md-start">
+        <div class="row text-center text-md-start">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto">
+            <h4 class="fw-bold mb-4">MyCompany</h4>
+            <p class="text-dark text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint perferendis rerum sit ipsam non dolore commodi doloribus. Officiis, iusto quibusdam.</p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto text-start">
+            <h4 class="fw-bold mb-4">MyProduct</h4>
+            <a href="#" class="text-decoration-none text-dark">Laptop Gaming</a>
+            <a href="#" class="text-decoration-none text-dark">Notebook Gaming</a>
+            <a href="#" class="text-decoration-none text-dark">Laptop</a>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto text-start">
+            <h4 class="fw-bold mb-4">ContactUS</h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
